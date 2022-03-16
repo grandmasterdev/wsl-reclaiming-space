@@ -32,7 +32,7 @@ cd $env:LOCALAPPDATA\Packages\REPLACE_ME_WITH_TARGET_DISTRO_FOLDERNAME
 
 wsl --shutdown
 
-optimize-vhd -Path .\ext4-vhdx -Mode full
+optimize-vhd -Path .\ext4.vhdx -Mode full
 
 # run wsl again
 wsl
