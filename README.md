@@ -28,7 +28,7 @@ wsl
 # examples:
 # 	CanonicalGroupLimited.Ubuntu20.04Windows_79rhp1fndgsc
 
-cd $env:LOCALAPPDATA\Packages\REPLACE_ME_WITH_TARGET_DISTRO_FOLDERNAME
+cd $env:LOCALAPPDATA\Packages\REPLACE_ME_WITH_TARGET_DISTRO_FOLDERNAME\LocalState
 
 wsl --shutdown
 
