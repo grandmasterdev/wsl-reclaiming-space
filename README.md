@@ -12,7 +12,7 @@ diskpart
 select vdisk file="C:\WSL-Distros\...\ext4.vhdx" # usually at $env:LOCALAPPDATA\Packages\Canonical...
 attach vdisk readonly
 compact vdisk
-detact vdisk
+detach vdisk
 exit
 
 # run wsl again
